@@ -1,0 +1,1060 @@
+
+/* BOTON */
+
+.BotonInicioVerde
+{
+    height: 20px;
+    font-family: 'Trebuchet MS';
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+    background: #15856C;
+    padding: 8px 4px 4px 4px;
+    border: 2px solid #15856C;
+}
+.BotonInicioVerde:hover
+{
+    color: #FFF;
+    cursor: pointer;
+    background: #15856C;
+    border: 2px solid #D3D3D3;
+}
+.BotonInicioGris
+{
+    height: 20px;
+    font-family: 'Trebuchet MS';
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+    background: #999;
+    padding: 8px 4px 4px 4px;
+    border: 2px solid #999;
+    border-radius: 3px;
+}
+.BotonInicioGris:hover
+{
+    color: #FFF;
+    cursor: pointer;
+    background: #999;
+    border: 2px solid #D3D3D3;
+}
+.BotonGeneral
+{
+    font-family: Century Gothic;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+    background: #F78D1D;
+    padding: 2px 8px 2px 8px;
+    border: 1px solid #F47C20;
+    border-radius: 8px;
+}
+.BotonGeneral:hover
+{
+	font-family: Century Gothic;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+    background: #D7620B;
+    padding: 2px 8px 2px 8px;
+    border: 1px solid #D7620B;
+    border-radius: 8px;
+}
+.BotonGeneralDisabled
+{
+    font-family: Century Gothic;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #808080;
+    cursor: auto;
+    background: #D4D4D4;
+    padding: 2px 8px 2px 8px;
+    border: 1px solid #999;
+    border-radius: 25px;
+}
+.BotonGeneralGris
+{
+    font-family: Century Gothic;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    cursor: pointer;
+    background: #E5E5E5;
+    padding: 2px 8px 2px 8px;
+    border: 1px solid #999;
+    border-radius: 25px;
+}
+.BotonGeneralGris:hover
+{
+	background-color: #ddd;
+	background-image: #ddd;
+}
+.BotonNaranja
+{
+    font-family: Century Gothic;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+    background: #F78D1D;
+    padding: 2px 8px 2px 8px;
+    border: 1px solid #F47C20;
+    border-radius: 3px;
+    height: 28px;
+}
+.BotonNaranja:hover
+{
+	font-family: Century Gothic;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+    background: #D7620B;
+    padding: 2px 8px 2px 8px;
+    border: 1px solid #D7620B;
+    border-radius: 3px;
+    height: 28px;
+}
+.BotonVerde
+{
+    font-family: Century Gothic;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+    background: #74A846;
+    padding: 2px 8px 2px 8px;
+    border: 1px solid #74A846;
+    border-radius: 3px;
+    height: 28px;
+}
+.BotonVerde:hover
+{
+	font-family: Century Gothic;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+    background: #507430;
+    padding: 2px 8px 2px 8px;
+    border: 1px solid #507430;
+    border-radius: 3px;
+    height: 28px;
+}
+.BotonAzul
+{
+    font-family: Century Gothic;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+    background: #0095cd;
+    padding: 2px 8px 2px 8px;
+    border: 1px solid #0095cd;
+    border-radius: 3px;
+    height: 28px;
+}
+.BotonBlanco
+{
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: gray;
+    cursor: pointer;
+    background: #FFF;
+    border: 1px solid #AAA;
+    height: 30px;
+}
+.BotonBlancoSeleccionado
+{
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+    background: #FFF;
+    border: 3px solid #AAA;
+    height: 30px;
+}
+
+/* CALENDAR */
+
+.Calendario .ajax__calendar_container
+{
+    width:200px;
+    background-color: #FFF; border:solid 0px #666;
+}
+.Calendario .ajax__calendar_body
+{
+    width:170px;height:180px;
+    background-color: #FFF; border-bottom: solid 1px #666;
+}
+.Calendario .ajax__calendar_header
+{
+    background-color: #FFF; margin-bottom: 0px;
+} 
+.Calendario .ajax__calendar_title
+{
+    color: #000; padding-top: 0px;
+}
+.Calendario .ajax__calendar_next,
+.Calendario .ajax__calendar_prev
+{
+    border:solid 0px #FFF;
+    background-color: #FFF;
+}
+.Calendario .ajax__calendar_hover .ajax__calendar_next,
+.Calendario .ajax__calendar_hover .ajax__calendar_prev
+{
+    border:solid 0px #C0C0C0;
+    background-color: #FFF;
+}
+.Calendario .ajax__calendar_dayname
+{
+    text-align:center; margin-bottom: 1px; margin-top: 1px;
+    color:#000;
+    background-color: #FFF;
+} 
+.Calendario .ajax__calendar_day,
+.Calendario .ajax__calendar_month,
+.Calendario .ajax__calendar_year
+{
+    text-align:center;
+    border:solid 1px #C0C0C0;
+    color:#000;
+    background-color: #FFF;
+}
+.Calendario .ajax__calendar_hover .ajax__calendar_day,
+.Calendario .ajax__calendar_hover .ajax__calendar_month,
+.Calendario .ajax__calendar_hover .ajax__calendar_year
+{
+    color: #FFF; font-weight:bold; background-color: #C0C0C0;
+}
+.Calendario .ajax__calendar_active .ajax__calendar_day,
+.Calendario .ajax__calendar_active .ajax__calendar_month,
+.Calendario .ajax__calendar_active .ajax__calendar_year
+{
+    color: #FFF; font-weight:bold; background-color: #74A846; 
+}
+.Calendario .ajax__calendar_today .ajax__calendar_day
+{
+    color: #000; font-weight:bold; background-color: #F47C20; 
+}
+.Calendario .ajax__calendar_other,
+.Calendario .ajax__calendar_hover .ajax__calendar_today
+{
+    color: #F47C20;
+    font-weight:bold;
+}
+.Calendario .ajax__calendar_days
+{
+    background-color: #FFF;
+    overflow:visible;
+}
+
+/* CELDA */
+
+.CeldaRespuesta
+{
+	font-family: Trebuchet MS;
+	font-size:13px;
+	color: #000;
+	text-align: left;
+	padding-bottom:10px;
+}
+.CeldaPregunta
+{
+	font-family: Trebuchet MS;
+	font-size: 13px;
+	font-weight: bold;
+	color:#000;
+	text-align: left;
+	background-color: #FFF;
+	padding-left: 2em;
+}
+.CeldaControlesDinamicos
+{
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	text-align: left;
+	background-color: #FFF;
+	padding-left: 2em;
+	padding-bottom: 1em;
+	border-bottom: 1px dotted #999;
+}
+
+/* CHECKBOX */
+
+.CheckBox label
+{
+    display:inline;
+    margin:5px;
+    font-family:Trebuchet MS;
+	font-size:12px;
+	color: #800000;
+}
+
+/* CHECKBOX HORARIO*/
+
+.CheckBoxHorario label
+{
+    display:inline;
+    font-family:Trebuchet MS;
+	font-size:15px;
+	color: #74A846;
+}
+
+/* DROPDOWNLIST */
+
+.DropDownList
+{
+    height: 25px;
+    font-family: Trebuchet MS;
+	font-size: 13px;
+	color: #333;
+	cursor: pointer;
+}
+
+/* GRIDVIEW */
+
+.GridTexto
+{
+    font-family: Trebuchet MS;
+	font-size: 13px;
+	color: #000;	
+}
+
+/* LABEL */
+
+.LabelSolicitudEmpleo
+{
+    font-family: Trebuchet MS;
+	font-size: 18px;
+	font-weight: bold;
+	color: #5E8A78;	
+}
+.LabelSecciones
+{
+    font-family: Trebuchet MS;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: left;
+	background-color: #74A846;
+}
+.LabelLogin
+{
+    font-family: Trebuchet MS;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+	background-color: #74A846;
+}
+.LabelListaAspirantes
+{
+    font-family: Trebuchet MS;
+	font-size: 13 px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: left;
+}
+.LabelTitulo
+{
+    font-family: Trebuchet MS;
+	font-size: 13px;
+	font-weight: bold;
+	color: #333;
+}
+.LabelServicio
+{
+    font-family: Trebuchet MS;
+	font-size: 15px;
+	font-weight: bold;
+}
+.LabelMarron
+{
+    font-family: Trebuchet MS;
+	font-size: 13px;
+	font-weight: bold;
+	text-align:center;
+	color: Maroon;
+}
+.LabelGeneral
+{
+    font-family: Trebuchet MS;
+	font-size: 13px;
+	color: #000;
+}
+.LabelGeneralMediano
+{
+    font-family: Trebuchet MS;
+	font-size: 14px;
+	color: #000;
+}
+.LabelGeneralGrande
+{
+    font-family: Trebuchet MS;
+	font-size: 15px;
+	color: #000;
+}
+.LabelGrandeVerde
+{
+    font-family: Trebuchet MS;
+	font-size: 20px;
+	color: #74A846;
+}
+.LabelAlerta
+{
+    font-family: Trebuchet MS;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    color: Maroon;
+}
+.LabelAlertaBlack
+{
+    font-family: Trebuchet MS;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    color: black;
+}
+.LabelProt
+{
+    font-family: Trebuchet MS;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F78D1D;	
+}
+.LabelRegresar
+{
+    font-family: Trebuchet MS;
+    font-size: 18px;
+    font-weight: bold;
+    color: #74A846;	
+}
+.FechasImp
+{
+    text-decoration: none;
+    text-align: left;
+    color: #000;
+    font-family: 'Muli', sans-serif;
+	font-size: 13px;
+    padding: 1em;
+    background-color: white;
+    display: none;
+    box-shadow: 3px 3px 5px #74A846;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.LabelFechasImp:hover .FechasImp
+{
+    display: inline-block;
+    position: absolute;
+}
+
+/* LINK */
+
+.LinkVerde
+{
+    font-family: Century Gothic;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #74A846;	
+    text-decoration: underline;	
+}
+.LinkVerde:hover
+{
+    font-family: Century Gothic;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #507430;	
+    text-decoration: underline;	
+}
+.LinkNaranja
+{
+    font-family: Century Gothic;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #F78D1D;
+    text-decoration: underline;
+}
+.LinkNaranja:hover
+{
+    font-family: Century Gothic;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #DE650C;
+    text-decoration: underline;
+}
+.LinkDisabled
+{
+    font-family: Century Gothic;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #666;
+    text-decoration: underline;
+}
+.LinkDeshabilitado
+{
+    font-family: Arial;
+    font-size: 12px;
+    color: #666;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* RENGLÓN */
+
+.RenglonInfoIzq
+{
+    color: #638E3C;
+    font-family: Trebuchet MS;
+	font-size: 13px;
+	width: 30%;
+	text-align: right;
+	padding-right: 1em;
+	box-shadow: 0 5px 5px -5px #65944A;	
+}
+.RenglonInfoDer
+{
+    color: #000;
+    font-family: Trebuchet MS;
+	font-size: 13px;
+	width: 70%;
+	text-align: left;
+	box-shadow: 0 5px 5px -5px #65944A;
+}
+.RenglonIzqPadding
+{
+    color: #000;
+    font-family: Trebuchet MS;
+	font-size: 15px;
+	text-align: left;
+	padding-left: 3em;
+}
+
+/* RADIOBOTON */
+
+.RadioBoton label
+{
+    display: inline;
+    margin: 5px;
+    font-family: Trebuchet MS;
+	font-size: 12px;
+}
+
+/* TEXTBOX */
+
+.TextBox
+{
+    color: #000;
+    padding-left: 0.3em;
+    border-radius: 3px;
+    height: 18px;
+}
+.TextBoxMultilinea
+{
+    resize: vertical;
+    display: inline-block;
+    vertical-align: middle;
+}
+.TextBoxRespuesta
+{
+    font-family: Trebuchet MS;
+    font-size: 12px;
+    color: #000;
+    padding-left: 0.3em;
+    border-radius: 7px;
+}
+.TextBoxMultilineaRespuesta
+{
+    font-family: Trebuchet MS;
+    font-size: 12px;
+    color: #000;
+    padding-left: 0.3em;
+    border-radius: 7px;
+    resize: vertical;
+}
+.TextBoxCalendario
+{
+    cursor: pointer;
+}
+
+/* VALIDADOR */
+
+.Validador
+{
+    font-size: 30px;
+    color: #CC0000;
+}
+.ValidadorEncuesta
+{
+    font-size: 20px;
+    color: #CC0000;
+}
+.ValidadorNumerico
+{
+    font-size: 15px;
+    color: #CC0000;
+}
+
+.ValidadorGeneral
+{
+    font-size: 13px;
+    color: Maroon;
+}
+
+/* PANEL */
+
+.Panel
+{
+    font-family: Trebuchet MS;
+    font-size: 13px;
+    font-weight: bold;
+    color: #74A846;
+    text-align: left;
+    background-color: #FFF;
+    height: 30px;
+    width: 200px;
+}
+
+/* TABLAS*/
+
+.Tabla
+{
+    font-family: Trebuchet MS;
+    font-size: 13px;
+    font-weight: bold;
+    color: #74A846;
+    text-align: left;
+    background-color: #FFF;
+    height: 30px;
+    width: 96%;
+}
+.TablaBorderless
+{
+    box-shadow: none;
+    border-collapse: collapse;
+}
+
+
+/* BOTONES */
+
+.BotonNaranja
+{
+    font-family: Century Gothic;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+    background: #F78D1D;
+    padding: 2px 8px 2px 8px;
+    border: 1px solid #F47C20;
+    border-radius: 3px;
+    height: 28px;
+}
+.BotonNaranja:hover
+{
+	font-family: Century Gothic;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+    background: #D7620B;
+    padding: 2px 8px 2px 8px;
+    border: 1px solid #D7620B;
+    border-radius: 3px;
+    height: 28px;
+}
+.BotonVerde
+{
+    font-family: Century Gothic;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+    background: #74A846;
+    padding: 2px 8px 2px 8px;
+    border: 1px solid #74A846;
+    border-radius: 3px;
+    height: 28px;
+}
+.BotonVerde:hover
+{
+	font-family: Century Gothic;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+    background: #507430;
+    padding: 2px 8px 2px 8px;
+    border: 1px solid #507430;
+    border-radius: 3px;
+    height: 28px;
+}
+
+/* TABLA */
+
+.RenglonTituloVerde
+{
+    font-family: Trebuchet MS;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #74A846;
+	border-left: 2px solid #74A846;
+	border-right: 2px solid #74A846;
+}
+.RenglonTituloGris
+{
+    text-align: center;
+    font-family: Trebuchet MS;
+	font-size: 14px;
+	font-weight: bold;
+	color: #F78D1D;
+	background-color: #F3F3F3;
+}
+.RenglonSubtituloGris
+{
+    font-family: Trebuchet MS;
+	font-size: 13px;
+	font-weight: bold;
+	color: #333;
+    text-align: center;
+	background-color: #F3F3F3;
+}
+
+.CeldaIzquierda
+{
+    color: #638E3C;
+    font-family: Trebuchet MS;
+	font-size: 13px;
+	width: 40%;
+	text-align: right;
+	padding-right: 1em;
+	box-shadow: 0 5px 5px -5px #65944A;
+}
+.CeldaDerecha
+{
+    color: #000;
+    font-family: Trebuchet MS;
+	font-size: 13px;
+	width: 60%;
+	text-align: left;
+	box-shadow: 0 5px 5px -5px #65944A;
+}
+.RenglonBordeVerde
+{
+	border-left: 2px solid #74A846;
+	border-right: 2px solid #74A846;
+    border-top: 1px dotted #666;
+	border-bottom: 2px solid #74A846;
+}
+
+/* HORARIOS */
+
+.TablaHorario
+{
+    box-shadow: none;
+    border-collapse: collapse;
+}
+.RenglonTituloHorario
+{
+    font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+    text-align: center;
+	background-color: #74A846;
+    height: 40px;
+}
+.CeldaTituloHorario1
+{
+    width: 11%;
+	border-left: 1px solid #74A846;
+	border-right: 1px solid #74A846;
+    border-bottom: 1px solid #C0C0C0;
+    border-top: 1px solid #74A846;
+}
+.CeldaTituloHorario2
+{
+    width: 14.8%;
+	border-left: 1px solid #C0C0C0;
+	border-right: 1px solid #C0C0C0;
+    border-bottom: 1px solid #C0C0C0;
+    border-top: 1px solid #74A846;
+}
+.CeldaHorarioVacia
+{
+    font-family: Calibri;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+    text-align: left;
+	background-color: #FFF;
+    width: 14.8%;
+    height: 35px;
+    padding-left: 0.8em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-right: 1px solid #C0C0C0;
+    border-top: 1px solid #C0C0C0;
+    border-bottom: 1px solid #C0C0C0;
+}
+.CeldaHorarioSinBordes
+{
+    font-family: Calibri;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+    text-align: left;
+	background-color: #F0F0F0;
+    width: 14.8%;
+    padding-left: 0.8em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-right: 1px solid #C0C0C0;
+    border-top: 1px solid #F0F0F0;
+    border-bottom: none;
+}
+.CeldaHorarioConBordes
+{
+    font-family: Calibri;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+    text-align: left;
+	background-color: #F0F0F0;
+    width: 14.8%;
+    padding-left: 0.8em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-right: 1px solid #C0C0C0;
+    border-top: 1px solid #C0C0C0;
+    border-bottom: 1px solid #C0C0C0;
+}
+.CeldaHorarioBordeSuperior
+{
+    font-family: Calibri;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+    text-align: left;
+	background-color: #F0F0F0;
+    width: 14.8%;
+    padding-left: 0.8em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-right: 1px solid #C0C0C0;
+    border-top: 1px solid #C0C0C0;
+    border-bottom: none;
+    vertical-align: top;
+}
+.CeldaHorarioBordeInferior
+{
+    font-family: Calibri;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+    text-align: left;
+	background-color: #F0F0F0;
+    width: 14.8%;
+    padding-left: 0.8em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-right: 1px solid #C0C0C0;
+    border-top: none;
+    border-bottom: 1px solid #C0C0C0;
+}
+.LinkHorarioVerde
+{
+    font-family: Calibri;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #74A846;
+}
+.AlinearIzq{
+    text-align:left;
+}
+.MarcadoVerde{
+    font-size: 12px;
+    font-weight:bold;
+    color:green;
+}
+.MarcadoRojo{
+    font-size: 12px;
+    font-weight:bold;
+    color:red;
+}
+.MarcadorNaranja{
+    font-size: 12px;
+    font-weight:bold;
+    color: orange;
+}
+
+/* Texto*/
+
+.Seccion
+{
+    background-color:white;
+    box-shadow: 3px 3px 8px black;
+    border-radius:5px 5px;
+    margin-bottom:10px;
+    padding-top:5px;
+    padding-bottom:15px;
+    padding-left:20px;
+    padding-right:10px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+
+
+.CeldaTituloCalif
+{
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+    text-align: center;
+	background-color: #74A846;
+    height: 40px;
+}
+.CeldaTituloCalifLeft
+{
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+    text-align: left;
+	background-color: #74A846;
+    height: 40px;
+}
+.CeldaTituloCalifRight
+{
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+    text-align: right;
+	background-color: #74A846;
+    height: 40px;
+}
+.CeldaCalificacion
+{
+    font-family: Trebuchet MS;
+	font-size: 12px;
+	color: #000;
+    text-align: center;
+	background-color: #FFF;
+    border-right: 1px solid #C0C0C0;
+    border-bottom: 1px solid #C0C0C0;
+}
+.CeldaCalificacionLeft
+{
+    font-family: Trebuchet MS;
+	font-size: 12px;
+	color: #000;
+    text-align: left;
+	background-color: #FFF;
+    border-right: 1px solid #C0C0C0;
+    border-bottom: 1px solid #C0C0C0;
+}
+
+
+/* NOTIFICACIONES */
+
+.CeldaNotificacionHeader
+{
+    font-family: Arial;
+	font-size: 12px;
+	color: #FFF;
+    text-align: center;
+    padding: 0.5em;
+	background-color: #808080;
+    border: 1px solid #808080;
+}
+.CeldaNotificacionIcono
+{
+    text-align: center;
+	background-color: #808080;
+    border-top: 2px solid #FFF;
+    border-left: 1px solid #808080;
+    border-right: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+}
+.CeldaNotificacionTop
+{
+    font-family: Arial;
+	font-size: 12px;
+	color: gray;
+    text-align: right;
+	background-color: #FFF;
+    border-top: 1px solid #808080;
+    border-left: 1px solid #808080;
+    border-right: 1px solid #808080;
+    border-bottom: 1px solid #FFF;
+}
+.CeldaNotificacionBottom
+{
+    font-family: Arial;
+	font-size: 12px;
+    font-weight: bold;
+	color: #000;
+    text-align: left;
+    padding-bottom: 0.5em;
+	background-color: #FFF;
+    border-top: 1px solid #FFF;
+    border-left: 1px solid #808080;
+    border-right: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+}
+.CeldaNotificaciones
+{
+    font-family: Arial;
+	font-size: 12px;
+	color: #000;
+    text-align: center;
+    padding: 1em;
+	background-color: #FFF;
+    border: 1px solid #808080;
+}
+
+.AvisoPrivacidad
+{
+    text-align: justify;
+    font-family: Trebuchet MS;
+    font-size: 13px;
+    font-weight: normal;
+    color: black;
+}

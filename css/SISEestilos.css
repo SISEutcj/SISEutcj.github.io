@@ -1,0 +1,741 @@
+/*
+    CSS Compatible v3
+    Universidad Tecnologica de Ciudad Juarez
+    Sistema Integral de Servicios Estudiantiles 2011-2012
+    Ultima Modif. 9 - Marzo - 2012
+    Ultima Modif. 2 (v3) 16 - Agosto - 2012
+*/
+/* añadidas SISE */
+.subtitle
+{
+    background: #74A846;
+    height: 12px;
+    padding-left: 11px;
+    padding-right: 11px;
+    color: #fff;
+    text-align: left;
+    font-size:12px;
+    border-left: 1px solid #B6D59A;
+    border-bottom: solid 2px #FFF;
+}
+input[type='text'], input[type='password'], textarea
+{
+    border-color:#c0c0c0;
+    color: #404040;
+    font-size: 9pt;
+}
+hr
+{
+    color: #A0A0A0;
+}
+#wrap, #form1Wrap
+{
+    background-color: transparent;
+    border: 0px none transparent;
+}
+.center
+{
+    margin:0px auto;
+    text-align: center;
+}
+.estilo2
+{
+    font-family:Segoe UI, Sans-Serif;
+    font-size:10px;
+}
+.estilo3
+{
+    table-layout: fixed; 
+    border-collapse:collapse;
+    border-spacing: 0px; 
+    border: none;
+    height:12px
+}
+.cabecera2
+{
+    font-style:normal;
+    font-weight:bold;
+    font-family: Segoe UI, Sans-Serif;
+    color:#000;
+    font-size:large;
+}
+.tableHeader
+{
+    font-style: normal;
+    font-weight: bold;
+    font-family: Segoe UI, Sans-Serif;
+    color:  #fff;
+    font-size: large;
+    text-align: center;
+}
+span.tableHeader
+{
+    margin-top: 4px;
+    margin-bottom: 30px;
+}
+.tableHeader2
+{
+    font-style: normal;
+    font-weight: bold;
+    font-family: Segoe UI, Sans-Serif;
+    color:  #000;        
+    text-align: left;        
+    font-size: 10pt;
+}
+.campo
+{
+    font-family:Segoe UI, Sans-Serif;
+    font-size:small;
+}
+.subtitulo
+{
+    font-family:Segoe UI, Sans-Serif;
+    background-color:Teal;
+    color:white;
+    font-weight:bold;
+    height:10px;
+}
+.interlineado
+{
+    padding-bottom:10px;
+}
+input[type='text']
+{
+    border-color:#c0c0c0;
+}
+.labels1
+{
+    font-weight:bold;   
+}
+.borderless_img    
+{
+    background:transparent none;
+    border:0px none transparent;
+}
+.borderless_img2
+{
+    border:0px none transparent;
+    background:transparent none;
+    margin-top: 10px;
+}
+.KeepSessionAlive_img
+{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/* Shadowed Buttons*/
+input.button {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    vertical-align: baseline;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 14px/100% Arial, Helvetica, sans-serif;
+    padding: .3em 2em .32em;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    border-radius: .1em;
+    -webkit-border-radius: .1em;
+    -moz-border-radius: .1em;
+    
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 0;
+
+    color: #606060;
+    border: solid 1px #b7b7b7;
+    background:transparent;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+    background: linear-gradient(top,  #fff,  #ededed);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+}
+input.button:active {
+    position: relative;
+    top: 1px;
+    color: #999;
+    background: linear-gradient(top,  #ededed,  #fff);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#ffffff');
+}
+input.button:hover 
+{
+    background: #ededed;
+    background: linear-gradient(top,  #fff,  #dcdcdc);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+}
+
+input.greenButton {
+    color: #e8f0de;
+    border: solid 1px #538312;
+    background: #64991e;
+    background: linear-gradient(top,  #7db72f,  #4e7d0e);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#7db72f', endColorstr='#4e7d0e');
+}
+input.greenButton:hover {
+    background: #538018;
+    background: linear-gradient(top,  #6b9d28,  #436b0c);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#6b9d28', endColorstr='#436b0c');
+}
+input.greenButton:active {
+    color: #a9c08c;
+    background: linear-gradient(top,  #4e7d0e,  #7db72f);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#4e7d0e', endColorstr='#7db72f');
+}
+input.whiteButton {
+    color: #606060;
+    border: solid 1px #b7b7b7;
+    background: #fff;
+    background: linear-gradient(top,  #fff,  #ededed);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+}
+input.whiteButton:hover {
+    background: #ededed;
+    background: linear-gradient(top,  #fff,  #dcdcdc);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+}
+input.whiteButton:active {
+    color: #999;
+    background: linear-gradient(top,  #ededed,  #fff);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#ffffff');
+}
+input.orangeButton {
+    color: #fef4e9;
+    border: solid 1px #da7c0c;
+    background: #f78d1d;
+    background: linear-gradient(top,  #faa51a,  #f47a20);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+input.orangeButton:hover {
+    background: #f47c20;
+    background: linear-gradient(top,  #f88e11,  #f06015);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+input.orangeButton:active {
+    color: #fcd3a5;
+    background: linear-gradient(top,  #f47a20,  #faa51a);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+}
+input.blueButton {
+    color: #d9eef7;
+    border: solid 1px #0076a3;
+    background: #0095cd;
+    background: linear-gradient(top,  #00adee,  #0078a5);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
+}
+input.blueButton:hover {
+    background: #007ead;
+    background: linear-gradient(top,  #0095cc,  #00678e);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0095cc', endColorstr='#00678e');
+}
+input.blueButton:active {
+    color: #80bed6;
+    background: linear-gradient(top,  #0078a5,  #00adee);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
+    /* IE is so silly */
+}
+/* New button style SISE 2011-dic-16 ******************************************************************************************************************************/
+
+/* Login Form Classes */
+.loginInput  
+{
+    padding: 5px;  
+    font-size: 10pt;  
+    text-shadow: 0px 1px 0px #d0d0d0;  
+    outline: none;  
+    background: -webkit-gradient(linear, left top, left bottombottom, from(#dcdcde), to(#ffffff));  
+    background: linear-gradient(top,  #dcdcde,  #ffffff);
+    border-radius: 2px;
+    border: 1px solid #717171;
+    box-shadow:  1px 1px 0px #efefef; 
+} 
+
+.loginInput:focus {  
+    -webkit-box-shadow: 0px 0px 3px #007eff;  
+    -moz-box-shadow: 0px 0px 3px #007eff;
+    box-shadow: 0px 0px 3px #007eff;  
+} 
+/* LoginForm2*/
+.loginForm
+{
+    font-family: 'Trebuchet MS' 'Arial' 'Helvetica' 'Sans-Serif';
+    width: 530px;
+    margin: 0px auto !important;
+    text-align:center;
+}
+.loginForm input[type='text']
+{
+    font-size: 12pt;
+    border-color:#c0c0c0;
+}
+.loginForm th
+{
+    font-size: 12pt;
+    text-align: center;
+    text-transform: uppercase;
+    height: 36px;
+}
+.loginForm td
+{
+    font-size: 9pt;
+    text-align: left;
+    color: #404040;
+    height: 36px;
+}
+.updateProgress
+{
+    text-align: center;
+    font-size: 12pt;
+    font-family: 'Courier New' 'Lucida Console' Monospace;
+}
+/* Accordion AjaxControl*/
+/*.accordionHdr {
+    display: block;
+    color: white;
+    font-family: 'Trebuchet MS' 'Arial' 'Sans-Serif';
+    font-size: 10pt;
+    font-weight: bold;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    
+    margin-left: 12px;
+}
+.accordionUrl {
+    text-align: left;
+    font-size: 9pt;
+    font-family: 'Trebuchet MS' 'Arial' 'Sans-Serif';
+    padding: 0px;
+    margin: 5px 0 0 16px;
+}
+.accordionCat {
+    font-size: 11pt;
+    font-weight: bold;
+    font-family: 'Trebuchet MS' 'Arial' 'Sans-Serif';
+    text-align: left;
+    padding: 0px;
+    margin: 10px 0 8px 8px;
+}
+.accordion {  
+     /*width: 520px;  */
+     text-align: center;
+     margin: 0px auto;
+}          
+.accordionHeader {
+    border: 1px solid #ffffff;
+    background-color: #8b8e93;
+    
+    vertical-align: middle;
+    text-align: left;
+    
+    height: 10px;
+    margin: 2px 0 2px 0;
+    
+    padding: 5px 0px 9px 0px;
+}
+.accordionHeader:hover
+{
+    background-color: #f78d1d;    
+    cursor: pointer;
+}
+.accordionHeaderSelected {
+    border: 1px solid #74A846;
+    background-color: #74A846;
+    cursor: default;
+    vertical-align: middle;
+    text-align: left;
+    
+    height: 13px;
+    margin: 2px 0 0 0;
+    
+    padding: 6px 0px 6px 0px;
+}          
+.accordionContent {
+    background-color: #f2f2f2;
+    border: 1px solid #74A846;
+    border-top: none;  
+    padding: 5px;  
+    padding-top: 10px;  
+}
+.accordionAl {  
+     text-align: center;
+     margin: 0px auto;
+     width: 200px;
+}          
+.accordionAlHeader {
+    border: 1px solid #ffffff;
+    background-color: #8b8e93;
+    
+    vertical-align: middle;
+    text-align: left;
+    
+    height: 10px;
+    margin: 2px 0 2px 0;
+    
+    padding: 5px 0px 9px 0px;
+}
+.accordionAlHeader:hover
+{
+    background-color: #f78d1d;    
+    cursor: pointer;
+}
+.accordionAlHeaderSelected {
+    border: 1px solid #74A846;
+    background-color: #74A846;
+    cursor: default;
+    vertical-align: middle;
+    text-align: left;
+    
+    height: 13px;
+    margin: 2px 0 0 0;
+    
+    padding: 6px 0px 6px 0px;
+}          
+.accordionAlContent {
+    background-color: #f2f2f2;
+    border: 1px solid #74A846;
+    border-top: none;  
+    padding: 5px;  
+    padding-top: 10px;
+    font-weight: bold;
+}*/
+.h1, .h2, .h3  { font: bold 1em 'Trebuchet MS', Tahoma, Sans-serif; }
+.h1 { font-size: 1.4em; color: #65944A; }
+.h2 { font-size: 1.2em; text-transform: uppercase; }
+.h3 { font-size: 1.2em; color: #72a545; }
+.h1, .h2, .h3 {
+    margin: 10px 15px 10px 15px;
+    text-align: center;
+    font-size: small;
+}
+.h4
+{
+    font-size: 1.0em;
+    color: inherit;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Extraido y unido desde SiseAlEstilos.css  ********************************************/
+#headerphoto { display: none;}
+#header-content, #content, #footer-content 
+{
+    width: 980px;
+}
+
+#divMenu
+{
+    top:70px;
+    position:fixed;
+    z-index:4000;
+    width: 200px;            
+    opacity: 0.95;
+    background-color:rgb(182,187,193);    
+    border: 1px solid rgb(133,175,155);
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    -webkit-border-bottom-right-radius:8px;
+    -webkit-border-bottom-left-radius:8px;
+    -moz-border-bottom-right-radius:8px;
+    -moz-border-bottom-left-radius:8px;
+    box-shadow: 2px 2px 2px gray;
+}       
+.divMenuTexto{
+    font-size:16px;
+    font-weight:bold;
+    color:white;
+    text-align:center;
+    height:30px;    
+    background-image: url('/graphics/menu_basico2.png');
+	background-repeat: no-repeat;
+    background-position: 5% 50%;    
+}
+.divMenuTexto span{    
+    line-height:30px;
+}
+#main
+{        
+    border: 0px none transparent;    
+    width: 100%;
+    background: #f8f8f8;
+    margin: 0 0 10px 0; padding: 0;	
+} 
+
+#header
+{
+    position:fixed;
+    top:0px;
+    left:0px;
+}
+#wrap
+{
+    padding-top: 90px;
+    background-color: transparent;
+}
+.post
+{
+    height: 100%;
+    margin: 0;      
+    padding: 15px 10px 10px 10px;        
+    border: 1px solid #EFEDED;
+    background-color: #FFFFFF;
+}
+form
+{
+    background-color: transparent;
+}
+#footer
+{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #ffffff;
+    border: 0px none transparent; 
+}
+#content-wrap 
+{
+    padding-bottom: 40px;
+}
+.blocker div
+{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    width: 120px;
+    height: 100px;
+    margin: -1em 0 0 -2.5em;
+    opacity: .99;
+    margin: 0px auto;
+    color: #000;
+    font-weight: bold;
+    background-color: Silver;
+}
+.blocker
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    background-color: #a0a0a0;
+    z-index: 1000;
+}
+.gray{
+    font-size: 28pt;
+}
+.iFrame
+{
+    margin: 0px 0px 0px 0px;
+    padding:  0px 0px 0px 0px;
+    border: 0px none transparent;
+}
+.pnlAvisos
+{
+    background-color: #FFFFFF;   
+    border: 1px solid #EFEDED;
+    color: #000000;
+    margin: 0 0 0 0; 
+    padding: 0 0 0 0;
+    margin-top: 10px;
+    width: 720px;
+    vertical-align: top;
+}
+
+.ZoomImagen img, .ZoomImagen:active img {
+    width: 120px;
+    margin: 4px 4px 4px 4px;
+    padding: 4px 4px 4px 4px;
+    border: 1px solid #b0b0b0;
+
+    box-shadow: 3px 3px 2px #808080;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.ZoomImagen:hover img {
+    border: 1px solid #72a545;
+    box-shadow: 2px 2px 1px #808080;
+}
+.imgSombra:hover{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(116, 168, 70, 0.67);
+    -moz-box-shadow:    0px 0px 30px 0px rgba(116, 168, 70, 0.67);
+    box-shadow:         0px 0px 30px 0px rgba(116, 168, 70, 0.67);
+}
+.divExterno
+{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+    padding-top: 20%;
+    margin: 0;
+    background: rgba(192, 192, 192, 0.8);
+    opacity: 0.8;
+    z-index: 5000;
+    text-align: center;
+    font-family: Trebuchet MS;
+    font-size: 15px;
+    color: #3D5626;
+    font-weight: bold;
+}
+.divInterno
+{
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    z-index: 5001;
+}
+
+.MensajeSise {
+    color: #CC2F5E;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: Calibri;
+    text-align: left;
+    background-color: #FFF8DC;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    border: solid #E3A345 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/* Jquery Accordion*/
+.accContainer{
+    padding: 0px;
+    width: auto;
+    border: none;
+    margin: 0px auto;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    text-align: left;
+    background: transparent;
+}
+#accordion ul{
+    margin: 0;
+    padding: 0px;
+}
+#accordion .acc{
+    font-family: 'Open Sans', 'Trebuchet MS', 'Helvetica', sans-serif;
+    font-size: 10pt;
+}
+#accordion .accHeaderLvl0{
+    display: block;
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+}
+#accordion .accHeaderLvl1{
+    display: block;
+    font-size: 11pt;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0;
+    margin-bottom: 6px;
+}
+#accordion .accContent{
+    font-size: 9pt;
+    padding-left: 10px;
+    padding-right: 6px;
+}
+#accordion .accContent ul li{
+    list-style: none outside;
+    line-height: 14pt;
+}
+#accordion .accContent ul li .ui-icon { 
+    display: inline-block;
+    float: left; 
+    margin-right: 6px;
+}
+#accordion .accLink{
+    text-decoration: none;
+    color: #72a545;
+    cursor: pointer;
+}
+#accordion .accLink:hover,
+#accordion .accLink:active,
+#accordion .accLink:visited{
+    text-decoration: underline;
+    color: #f78d1d;
+}
+
+.LabelNotificacion
+{
+    font-family: Trebuchet MS;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+.LabelAdeudo
+{
+    font-family: Trebuchet MS;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+.pnlContenedorMensajeObligatorio{
+    width: 730px;    
+}
+.TituloMensajeObligatorio{		
+    width: 700px;
+	padding: 5px 15px 5px 15px;
+	margin: 0;				
+	text-align: center;
+    font-family: Trebuchet MS;
+    font-size:15px;
+    color:#000;
+	font-weight:bold;        
+    border-top-style: groove;
+    border-top-color:#666;    
+    
+}
+.CuerpoMensajeObligatorio{		
+    width: 700px;
+	padding: 10px 15px 5px 15px;
+	margin: 0;				
+	text-align: justify;
+    font-family: Trebuchet MS;
+    font-size:13px;
+    color:#000000;	
+    border-top-style: groove;
+    border-top-color:#666;    
+}
+.BotonNaranja
+{
+    font-family: Century Gothic;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+    background: #F78D1D;
+    padding: 2px 8px 2px 8px;
+    border: 1px solid #F47C20;
+    border-radius: 2px;
+    height: 28px;
+}
+.BotonNaranja:hover
+{
+	font-family: Century Gothic;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+    background: #D7620B;
+    padding: 2px 8px 2px 8px;
+    border: 1px solid #D7620B;
+    border-radius: 2px;
+    height: 28px;
+}

